@@ -1,10 +1,10 @@
-// gcc -fopenmp -lm -D_DEFAU4LT_SOURCE -o OpenMP_WITH_pad OpenMP_WITH_pad.c && ./OpenMP_WITH_pad
+// gcc -fopenmp -lm -D_DEFAULT_SOURCE -o OpenMP_WITH_pad OpenMP_WITH_pad.c && ./OpenMP_WITH_pad
 #include <stdio.h>
 #include <stdlib.h>
 #include <omp.h>
 #include <sys/time.h>
  
-#define ITERATIONS 1e09
+#define ITERATIONS 2e09
 #define THREADS 2
 #define PAD 8
 

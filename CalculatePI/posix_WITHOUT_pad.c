@@ -6,7 +6,7 @@
 #include <pthread.h>
 #include <sys/time.h>
 
-#define ITERATIONS 1e09
+#define ITERATIONS 2e09
 #define THREADS 4
 
 double piTotal[THREADS];
